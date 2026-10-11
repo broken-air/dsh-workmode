@@ -4,14 +4,38 @@
   "description": "Dsh Desktop work mode: reduce false refusals while preserving safety boundaries.",
   "type": "module",
   "main": "lib/index.js",
-  "files": ["lib", "cordis.patch.yml", "README.md", "LICENSE"],
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
   "license": "MIT",
-  "keywords": ["dsh", "dsh-plugin", "work-mode", "safety", "desktop"],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "work-mode",
+    "safety",
+    "desktop"
+  ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
-    "client": { "platform": "desktop" }
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "desktop"
+    }
   },
-  "peerDependencies": { "@deepseek-ai/cordis": "^4.0.1" },
-  "engines": { "node": ">=18" },
-  "dshTarget": "0.1.2-rc.1"
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dshTarget": "0.1.2-rc.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broken-air/dsh-workmode.git"
+  },
+  "homepage": "https://github.com/broken-air/dsh-workmode#readme"
 }

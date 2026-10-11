@@ -1,5 +1,5 @@
 # dsh-workmode
-
+`nGitHub: https://github.com/broken-air/dsh-workmode`n`n## 安装`n`n```powershell`ndsh plugin --profile desktop add github:broken-air/dsh-workmode`n``` `n
 Dsh Desktop 专用的“工作模式”插件。它的目标是减少仅因敏感词触发的误拒答，同时保留对明确现实伤害请求的必要边界。
 
 ## 行为
@@ -22,3 +22,4 @@ Dsh Desktop 专用的“工作模式”插件。它的目标是减少仅因敏�
 ```
 
 本插件只适用于用户有权管理的 Dsh Desktop 实例。应用前建议保留 Dsh profile 备份。
+
